@@ -12,7 +12,7 @@ export const Footer = () => {
             <div onClick={() => window.open(window?.location?.origin)}>
               <span className="flex items-center justify-start text-[24px] font-black">
                 <IconPaidreUnpadded className="w-10 mr-2 md:mr-4" />
-                Paidre
+                Payre
               </span>
             </div>
 
@@ -73,13 +73,13 @@ export const Footer = () => {
               Blog
             </div>
 
-            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://linkedin.com/company/paidre`)} target="_blank" rel="nofollow">
+            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://linkedin.com/company/usepayre`)} target="_blank" rel="nofollow">
               LinkedIn
             </a>
-            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://facebook.com/getpaidre`)} target="_blank" rel="nofollow">
+            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://facebook.com/usepayre`)} target="_blank" rel="nofollow">
               Facebook
             </a>
-            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://paidre.betteruptime.com`)} target="_blank" rel="nofollow">
+            <a className="hover:text-[#0fa0fa] text-[#555] cursor-pointer" onClick={() => window.open(`https://payre.betteruptime.com`)} target="_blank" rel="nofollow">
               System status
             </a>
           </div>
@@ -95,7 +95,7 @@ export const Footer = () => {
         </div>
 
         <div className="md:flex items-center justify-between w-full text-[#555] text-[16px]">
-          <div className="mb-4 md:mb-0">© Paidre {year}</div>
+          <div className="mb-4 md:mb-0">© Payre {year}</div>
         </div>
       </div>
     </footer>

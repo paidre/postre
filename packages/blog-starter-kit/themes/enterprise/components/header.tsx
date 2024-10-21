@@ -85,7 +85,7 @@ export const Header = () => {
 <div className="cursor-pointer" onClick={()=>window.open(`${window?.location?.origin}`)}>
             <span className="flex items-center justify-start text-[24px] font-black">
               <IconPaidreUnpadded className="w-10 mr-2 md:mr-4" />
-              Paidre
+              Payre
             </span>
             </div>
 
